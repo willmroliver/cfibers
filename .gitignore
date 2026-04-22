@@ -5,6 +5,4 @@ debug
 .cache
 dbs
 books
-.asm-lsp.toml
-
 *.sh

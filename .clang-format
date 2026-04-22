@@ -1,0 +1,12 @@
+# C — kernel-style indentation: 8-wide hard tabs.
+# Matches the nvim indent rules for .c/.h (lua/modules/format/indent.lua).
+# Copy into a C project root as .clang-format.
+BasedOnStyle: LLVM
+BreakBeforeBraces: Linux
+BreakBeforeBinaryOperators: NonAssignment
+UseTab: Always
+IndentWidth: 8
+TabWidth: 8
+ContinuationIndentWidth: 8
+AllowShortFunctionsOnASingleLine: None
+ColumnLimit: 0
